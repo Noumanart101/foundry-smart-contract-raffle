@@ -75,8 +75,6 @@ make deploy
 3. Forked
 4. Staging
 
-This repo we cover #1 and #3.
-
 ```
 forge test
 ```
@@ -164,7 +162,6 @@ Chainlink-brownie-contracts is an official repo. The repository is owned and mai
 
 https://github.com/smartcontractkit/chainlink-brownie-contracts
 
-So, then you have two options:
 1. Download from the chainlink-brownie-contracts repo which already downloads from npm and then packages it nicely for you to use in foundry.
 ## Summary
 1. That is an official repo maintained by the same org

@@ -29,9 +29,9 @@ import {AutomationCompatibleInterface} from "@chainlink/contracts/v0.8/automatio
 
 /**
  * @title A sample Raffle Contract
- * @author Patrick Collins
+ * @author Nouman (Nomi)
  * @notice This contract is for creating a sample raffle contract
- * @dev This implements the Chainlink VRF Version 2
+ * @dev This implements the Chainlink VRF Version 2.5
  */
 contract Raffle is VRFConsumerBaseV2Plus, AutomationCompatibleInterface {
     /* Errors */
@@ -164,7 +164,6 @@ contract Raffle is VRFConsumerBaseV2Plus, AutomationCompatibleInterface {
                 )
             })
         );
-        // Quiz... is this redundant?
         emit RequestedRaffleWinner(requestId);
     }
 
